@@ -87,9 +87,6 @@ footer {
   border-radius: 3px;
   color: white;
   padding: 10px;
-
-}
-.card {
   animation: fadeIn 0.5s ease 0s 1 normal;
   -webkit-animation: fadeIn 0.5s ease 0s 1 normal;
 }
