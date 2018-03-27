@@ -14,4 +14,8 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+<<<<<<< HEAD
 /dist
+=======
+dist/
+>>>>>>> 29261271cd414bf6d8e0be89303310892428391f
