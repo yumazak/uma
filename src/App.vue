@@ -8,10 +8,10 @@
       <p id="my-name">yuma yamazaki</p>
       <header>
         <div id="header-container">
-          <router-link to="/" exact><img src="./assets/logo.jpg" alt="" class="icon"></router-link>
-          <router-link to="/accounts" exact><img src="./assets/accounts.svg" alt="" class="icon"></router-link>
-          <img src="./assets/works.svg" alt="" class="icon">
-          <img src="./assets/contact.svg" alt="" class="icon">
+          <router-link to="/" active-class="active" exact><img src="./assets/logo.jpg" alt="" class="icon"></router-link>
+          <router-link to="/accounts" active-class="active" exact><img src="./assets/accounts.svg" alt="" class="icon"></router-link>
+          <router-link to="/works" active-class="active" exact><img src="./assets/works.svg" alt="" class="icon"></router-link>
+          <router-link to="/contact" active-class="active" exact><img src="./assets/contact.svg" alt="" class="icon"></router-link>
         </div>
       </header>
       <div id="card-container">
@@ -80,5 +80,69 @@ footer {
   max-width: 460px;
   margin: 0 auto;
   padding: 20px 5px;
+}
+.card {
+  background-color: #db4051;
+  border: 3px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 10px;
+
+}
+.card {
+  animation: fadeIn 0.5s ease 0s 1 normal;
+  -webkit-animation: fadeIn 0.5s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.active {
+  opacity: 0.5;
+  animation: icon-fadeIn 0.5s ease 0s 1 normal;
+  -webkit-animation: icon-fadeIn 0.5s ease 0s 1 normal;
+}
+
+@keyframes icon-fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@-webkit-keyframes icon-fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 25px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid white;
+}
+.card-content {
+  line-height: 2;
+  letter-spacing: 1.1px;
 }
 </style>
