@@ -4,11 +4,11 @@
             <section>
                 <p class="card-title">works</p>
                 <div class="card-content">
-                    <div class="work"><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522477461/emotion.webp"/></div>
-                    <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522477917/way.webp"/></div>
-                    <div class="work" ><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522478895/travel.webp"/></div>
-                    <div class="work" ><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522479182/SYAKOTAN.webp"/></div>
-                    <div class="work" ><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522479637/OISII.webp"/></div>
+                    <div class="work"><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522481115/g_emotion.gif"/></div>
+                    <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481670/g_way.gif"/></div>
+                    <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_travel.gif"/></div>
+                    <!-- <div class="work" ><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522479182/SYAKOTAN.webp"/></div> -->
+                    <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_OISII.gif"/></div>
                 </div>
             </section>
         </div>
