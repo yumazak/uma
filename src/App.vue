@@ -14,9 +14,7 @@
           <router-link to="/contact" active-class="active" exact><img src="./assets/contact.svg" alt="" class="icon"></router-link>
         </div>
       </header>
-      <div id="card-container">
-        <router-view/>
-      </div>
+      <router-view/>
     </div>
     <footer></footer>
   </div>
@@ -76,6 +74,26 @@ footer {
   filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.6));
 }
 
+@keyframes icon-fadeIn {
+  0% {
+    opacity: 1;
+
+  }
+  100% {
+    opacity: 0.5;
+
+  }
+}
+
+@-webkit-keyframes icon-fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
 #card-container {
   max-width: 460px;
   margin: 0 auto;
@@ -114,29 +132,12 @@ footer {
   -webkit-animation: icon-fadeIn 0.5s ease 0s 1 normal;
 }
 
-@keyframes icon-fadeIn {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-
-@-webkit-keyframes icon-fadeIn {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-
 .card-title {
   margin-top: 0;
   font-size: 25px;
   margin-bottom: 10px;
   border-bottom: 3px solid white;
+  text-align: center;
 }
 .card-content {
   font-size: 16px;

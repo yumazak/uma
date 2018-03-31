@@ -1,4 +1,5 @@
 <template>
+  <div id="card-container">
     <div class="card">
         <section>
             <h1 class="card-title">accounts</h1>
@@ -6,6 +7,7 @@
             <p><a href="https://github.com/uma0317" target="brank">https://github.com/uma0317</a></p>
         </section>
     </div>
+  </div>
 </template>
 
 <script>
