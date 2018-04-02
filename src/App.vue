@@ -32,7 +32,7 @@ export default {
   src: url("/fonts/KodomoRounded.otf");
 }
 a {
-  color: #83cff8;
+  color: #77d0ff;
 }
 
 body {
