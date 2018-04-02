@@ -7,7 +7,6 @@
                     <div class="work"><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522481115/g_emotion.gif"/></div>
                     <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481670/g_way.gif"/></div>
                     <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_travel.gif"/></div>
-                    <!-- <div class="work" ><img src="https://res.cloudinary.com/yuuma0317/image/upload/v1522479182/SYAKOTAN.webp"/></div> -->
                     <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_OISII.gif"/></div>
                 </div>
             </section>
@@ -31,8 +30,8 @@ export default {
 }
 .card-content {
     flex-wrap: wrap;
- display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 .work {
      float: left;

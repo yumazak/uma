@@ -5,6 +5,8 @@
             <h1 class="card-title">accounts</h1>
             <p class="name">github</p>
             <p><a href="https://github.com/uma0317" target="brank">https://github.com/uma0317</a></p>
+            <p class="name">Twitter</p>
+            <p><a href="https://twitter.com/progorp" target="brank">https://twitter.com/progorp</a></p>
         </section>
     </div>
   </div>
@@ -19,9 +21,6 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-a {
-  color: #b7e6ff;
-}
 
 section {
   p {

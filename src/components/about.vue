@@ -8,7 +8,7 @@
                     シュミはバドミントン,ギター,エイゾウセイサク,プログラミング。<br/>
                     JavaScript,Ruby,Rustがスキ。<br/>
                     エンジニアをメザしている。<br/>
-                    ミヅライブンショウデスミマセン...
+                    ナニかあれば<a href="https://twitter.com/progorp" target="brank">Twitter</a>にDMください。
                 </p>
             </section>
         </div>

@@ -11,7 +11,7 @@
           <router-link to="/" active-class="active" exact><img src="./assets/logo.jpg" alt="" class="icon"></router-link>
           <router-link to="/accounts" active-class="active" exact><img src="./assets/accounts.svg" alt="" class="icon"></router-link>
           <router-link to="/works" active-class="active" exact><img src="./assets/works.svg" alt="" class="icon"></router-link>
-          <router-link to="/contact" active-class="active" exact><img src="./assets/contact.svg" alt="" class="icon"></router-link>
+          <!-- <router-link to="/contact" active-class="active" exact><img src="./assets/contact.svg" alt="" class="icon"></router-link> -->
         </div>
       </header>
       <router-view/>
@@ -31,6 +31,10 @@ export default {
   font-style: Regular;
   src: url("/fonts/KodomoRounded.otf");
 }
+a {
+  color: #83cff8;
+}
+
 body {
   padding: 0;
   margin: 0;
