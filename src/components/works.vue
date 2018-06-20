@@ -45,6 +45,11 @@
                           description="ボイラープレートをCLIで管理するシンプルなRust製ツールです。"
                           worksUrl="https://github.com/uma0317/bom"
                     />
+                    <Work name="JATTS"
+                          description="大学の課題でJavaで何か作れと言われて、セットした文字列を含むツイートをストリーミングするアプリを作りました。"
+                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529506741/128013a5-b2d2-4436-b144-f7e5361bbcd1.png"
+                          isNeedFit="true"
+                    />
                     <!-- <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529495749/4m4vpxG_-_Imgur_1.gif"/></div>
                     <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_travel.gif"/></div>
                     <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_OISII.gif"/></div> -->
