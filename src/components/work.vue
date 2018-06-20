@@ -2,7 +2,7 @@
     <div class="work">
         <img v-if="hasImgUrl" :src="imgUrl" :class="{fit: isNeedFit}" />
         <div v-if="!hasImgUrl" class="notHasImage">
-            <img src="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_100/v1529503129/github.png"/>
+            <img src="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529503129/github.png"/>
         </div>
         <div class="mask" :class="{pointer: hasWorksUrl}" v-on:click="open" ontouchstart="">
             <div class="caption">

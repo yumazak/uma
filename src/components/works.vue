@@ -28,13 +28,13 @@
                     />
                     <Work name="Kogera"
                           description="Angular製のTwitter Viewerです。公開していません。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529502695/kogera.png"
+                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529502695/kogera.png"
                           isNeedFit=true
                     />
                     <Work name="Uma-Web"
                           description="昔作ったポートフォリオサイトです。バックエンドはRailsでHeroku上で動かしています。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529502442/4ea2f64d-2764-4430-a848-0e4387d6d676.png"
-                          worksUrl="http://uma-web.tk/"
+                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529502442/4ea2f64d-2764-4430-a848-0e4387d6d676.png"
+                          worksUrl=""
                           isNeedFit=true
                     />
                     <Work name="Rust-BlockChain"
@@ -47,7 +47,7 @@
                     />
                     <Work name="JATTS"
                           description="大学の課題でJavaで何か作れと言われて、セットした文字列を含むツイートをストリーミングするアプリを作りました。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529506741/128013a5-b2d2-4436-b144-f7e5361bbcd1.png"
+                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529506741/128013a5-b2d2-4436-b144-f7e5361bbcd1.png"
                           isNeedFit="true"
                     />
                     <!-- <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529495749/4m4vpxG_-_Imgur_1.gif"/></div>
