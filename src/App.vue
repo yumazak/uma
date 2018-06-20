@@ -26,11 +26,7 @@ export default {
 </script>
 
 <style lang="scss">
-@font-face {
-  font-family: KodomoRounded;
-  font-style: Regular;
-  src: url("/fonts/KodomoRounded.otf");
-}
+
 a {
   color: #77d0ff;
 }
