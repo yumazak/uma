@@ -137,6 +137,7 @@ footer {
   font-size: 25px;
   margin-bottom: 10px;
   border-bottom: 3px solid white;
+  padding-bottom: 10px;
   text-align: center;
 }
 .card-content {
