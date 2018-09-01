@@ -8,8 +8,16 @@
                     シュミはバドミントン,ギター,エイゾウセイサク,プログラミング。<br/>
                     JavaScript,Ruby,Rustがスキ。<br/>
                     エンジニアをメザしている。<br/>
-                    ナニかあれば<a href="https://twitter.com/progorp" target="brank">Twitter</a>にDMください。
+                    ナニかあれば<a href="https://twitter.com/progorp" target="brank">Twitter</a>にDMください。<br/>
+                    ヨミにくい。
                 </p>
+            </section>
+            <section>
+                <p class="card-title">Carrer</p>
+                <div class="card-content">
+                    <p class="subtitle">Internship</p>
+                    18/8 Amazon Web Services
+                </div>
             </section>
         </div>
     </div>
@@ -23,3 +31,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.subtitle {
+    font-size: 20px;
+    margin: 0px;
+}
+</style>
