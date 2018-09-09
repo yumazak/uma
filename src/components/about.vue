@@ -16,7 +16,8 @@
                 <p class="card-title">Carrer</p>
                 <div class="card-content">
                     <p class="subtitle">Internship</p>
-                    18/8 Amazon Web Services
+                    18/8 Amazon Web Services<br/>
+                    18/9 コロプラ<br/>
                 </div>
             </section>
         </div>

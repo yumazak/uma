@@ -7,6 +7,8 @@
             <p><a href="https://github.com/uma0317" target="brank">https://github.com/uma0317</a></p>
             <p class="name">Twitter</p>
             <p><a href="https://twitter.com/progorp" target="brank">https://twitter.com/progorp</a></p>
+            <p class="name">Facebook</p>
+            <p><a href="https://facebook.com/uma0317" target="brank">https://facebook.com/uma0317</a></p>
         </section>
     </div>
   </div>
