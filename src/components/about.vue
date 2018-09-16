@@ -18,6 +18,7 @@
                     <p class="subtitle">Internship</p>
                     18/8 Amazon Web Services<br/>
                     18/9 コロプラ<br/>
+                    18/9 Rakuten<br/>
                 </div>
             </section>
         </div>
