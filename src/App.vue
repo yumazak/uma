@@ -34,7 +34,8 @@ a {
 body {
   padding: 0;
   margin: 0;
-  background-color: #b53543;
+  // background-color: #b53543;
+  background-color: #db4051;
   font-family: "Nico Moji";
 }
 .main {
@@ -100,9 +101,9 @@ footer {
   padding: 20px 5px;
 }
 .card {
-  background-color: #db4051;
-  border: 3px solid white;
-  border-radius: 3px;
+  // background-color: #db4051;
+  // border: 3px solid white;
+  // border-radius: 3px;
   color: white;
   padding: 10px;
   animation: fadeIn 0.5s ease 0s 1 normal;
