@@ -29,6 +29,7 @@ export default {
 
 a {
   color: #77d0ff;
+  text-decoration: none;
 }
 
 body {
@@ -72,7 +73,7 @@ footer {
   border-radius: 50%;
   border: 3px solid white;
   background-color: #56b584;
-  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.6));
+  // filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.6));
 }
 
 @keyframes icon-fadeIn {
