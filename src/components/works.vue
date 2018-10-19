@@ -5,69 +5,79 @@
             <section>
                 <p class="card-title">works</p>
                 <div class="card-content">
-                    <Work name="Rust LineBot"
-                          description="rust製の自作api wrapperを使ってline botを作りました。気温と天気表示、todoタスクを実装しました。herokuで動かしています。"
-                          imgUrl="https://i.imgur.com/GdulzwG.jpg"
-                          worksUrl="https://github.com/uma0317/line-messaging-api-rust"
-                          :tags='["rust", "heroku"]'
-                    />
-                    <Work name="line-messaging-api-rust"
-                          description="Rust製Line Messaging API Wrapper"
-                          worksUrl="https://github.com/uma0317/line-messaging-api-rust"
-                    />
-                    <Work name="gradation"
-                          description="ProcessingでVJぽい遊びができるツール。Arduinoと連携して遊ぶこともできる。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529495749/4m4vpxG_-_Imgur_1.gif"
-                          worksUrl="https://github.com/uma0317/gradation"
-                    />
-                    <Work name="PWA時間割"
-                          description="IndexedDBとPWAに触れてみたったので,Vueで作ってみました。状態管理はVuex. 完全にクライアントのみで動作します。"
-                          imgUrl="https://i.imgur.com/jIASHjZ.png"
-                          worksUrl="https://jikanwari.netlify.com/"
-                          isNeedFit=true
-                    />
-                    <Work name="Kogera"
-                          description="Angular製のTwitter Viewerです。公開していません。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529502695/kogera.png"
-                          isNeedFit=true
-                    />
-                    <Work name="Uma-Web"
-                          description="昔作ったポートフォリオサイトです。バックエンドはRailsでHeroku上で動かしています。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529502442/4ea2f64d-2764-4430-a848-0e4387d6d676.png"
-                          worksUrl=""
-                          isNeedFit=true
-                    />
-                    <Work name="Rust-BlockChain"
-                          description="RustでBlockChainを実装してみた"
-                          worksUrl="https://github.com/uma0317/Rust-BlockChain"
-                    />
-                    <Work name="BOM"
-                          description="ボイラープレートをCLIで管理するシンプルなRust製ツールです。"
-                          worksUrl="https://github.com/uma0317/bom"
-                    />
-                    <Work name="JATTS"
-                          description="大学の課題でJavaで何か作れと言われて、セットした文字列を含むツイートをストリーミングするアプリを作りました。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529506741/128013a5-b2d2-4436-b144-f7e5361bbcd1.png"
-                          isNeedFit="true"
-                    />
-                    <Work name="屈斜路湖雲海予測bot"
-                          description="屈斜路湖の雲海出現確率とライブカメラの画像を呟くbotです。データはスクレイピングして取っています。Rubyで書きました。"
-                          isNeedFit="true"
-                          worksUrl="https://twitter.com/Kussharo_bot"
-                    />
-                    <Work name="日本の景色bot"
-                          description="日本の景色のライブ写真を呟くbotです。スクレイピングして写真を取ってきます。Rubyで書きました"
-                          isNeedFit="true"
-                          worksUrl="https://twitter.com/jp_scenery"
-                    />
-                    <Work name="Dream"
-                          description="AWSインターンシップのハッカソンでチーム開発したもの。機械学習によりユーザーが選択した興味のある言葉に関連する職業を提示するサービス。"
-                          imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1535200348/dream.jpg"
-                          isNeedFit="true"
-                    />
-                    <!-- <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529495749/4m4vpxG_-_Imgur_1.gif"/></div>
-                    <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_travel.gif"/></div>
-                    <div class="work" ><img src="http://res.cloudinary.com/yuuma0317/image/upload/v1522481671/g_OISII.gif"/></div> -->
+                        <Work name="motiva"
+                        imgUrl="https://res.cloudinary.com/yuuma0317/image/upload/v1539424226/motiva.png"
+                        isNeedFit=true
+                        description="自己分析をする時、モチベーショングラフを書こうと思ったのですが、紙に書くのが嫌すぎてツールを作りました。PWAです。"
+                        worksUrl="https://motiva.uma0317.work"
+                        :tags='["vue", "pwa"]'
+                        />
+                        <Work name="rustatic"
+                        description="rust製の静的サイトジェネレーター。ブログを始めようと思ったから作りました。まだ最低限の部分しか実装していません。"
+                        worksUrl="https://github.com/uma0317/rustatic"
+                        :tags='["rust"]'
+                        />
+                        <Work name="Rust LineBot"
+                              description="rust製の自作api wrapperを使ってline botを作りました。気温と天気表示、todoタスクを実装しました。herokuで動かしています。"
+                              imgUrl="https://i.imgur.com/GdulzwG.jpg"
+                              worksUrl="https://github.com/uma0317/line-messaging-api-rust"
+                              :tags='["rust", "heroku"]'
+                        />
+
+                        <Work name="line-messaging-api-rust"
+                        description="Rust製Line Messaging API Wrapper"
+                        worksUrl="https://github.com/uma0317/line-messaging-api-rust"
+                        />
+                        <Work name="gradation"
+                        description="ProcessingでVJぽい遊びができるツール。Arduinoと連携して遊ぶこともできる。"
+                        imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1529495749/4m4vpxG_-_Imgur_1.gif"
+                        worksUrl="https://github.com/uma0317/gradation"
+                        />
+                        <Work name="PWA時間割"
+                        description="IndexedDBとPWAに触れてみたったので,Vueで作ってみました。状態管理はVuex. 完全にクライアントのみで動作します。"
+                        imgUrl="https://i.imgur.com/jIASHjZ.png"
+                        worksUrl="https://jikanwari.netlify.com/"
+                        isNeedFit=true
+                        />
+                        <Work name="Kogera"
+                        description="Angular製のTwitter Viewerです。公開していません。"
+                        imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529502695/kogera.png"
+                        isNeedFit=true
+                        />
+                        <Work name="Uma-Web"
+                        description="昔作ったポートフォリオサイトです。バックエンドはRailsでHeroku上で動かしています。"
+                        imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529502442/4ea2f64d-2764-4430-a848-0e4387d6d676.png"
+                        worksUrl=""
+                        isNeedFit=true
+                        />
+                        <Work name="Rust-BlockChain"
+                        description="RustでBlockChainを実装してみた"
+                        worksUrl="https://github.com/uma0317/Rust-BlockChain"
+                        />
+                        <Work name="BOM"
+                        description="ボイラープレートをCLIで管理するシンプルなRust製ツールです。"
+                        worksUrl="https://github.com/uma0317/bom"
+                        />
+                        <Work name="JATTS"
+                        description="大学の課題でJavaで何か作れと言われて、セットした文字列を含むツイートをストリーミングするアプリを作りました。"
+                        imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1529506741/128013a5-b2d2-4436-b144-f7e5361bbcd1.png"
+                        isNeedFit="true"
+                        />
+                        <Work name="屈斜路湖雲海予測bot"
+                        description="屈斜路湖の雲海出現確率とライブカメラの画像を呟くbotです。データはスクレイピングして取っています。Rubyで書きました。"
+                        isNeedFit="true"
+                        worksUrl="https://twitter.com/Kussharo_bot"
+                        />
+                        <Work name="日本の景色bot"
+                        description="日本の景色のライブ写真を呟くbotです。スクレイピングして写真を取ってきます。Rubyで書きました"
+                        isNeedFit="true"
+                        worksUrl="https://twitter.com/jp_scenery"
+                        />
+                        <Work name="Dream"
+                        description="AWSインターンシップのハッカソンでチーム開発したもの。機械学習によりユーザーが選択した興味のある言葉に関連する職業を提示するサービス。"
+                        imgUrl="http://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_700/v1535200348/dream.jpg"
+                        isNeedFit="true"
+                        />
                 </div>
             </section>
         </div>
