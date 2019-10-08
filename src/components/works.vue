@@ -9,7 +9,6 @@
                         imgUrl="https://res.cloudinary.com/yuuma0317/image/upload/v1570523965/server_watcher.png"
                         isNeedFit=true
                         description="自作サーバ監視ツール。サーバ監視のクライアントとサーバ、DashBoardのAPIサーバにRustを使っています。"
-                        worksUrl="https://motiva.uma0317.work"
                         :tags='["vue", "Rust"]'
                         />
                         <Work name="motiva"
