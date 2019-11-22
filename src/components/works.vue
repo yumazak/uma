@@ -5,6 +5,26 @@
             <section>
                 <p class="card-title">works</p>
                 <div class="card-content">
+                        <Work name="KISS Client"
+                        description="KISSのMacクライアントです。Macでのキー入力を無効化しつつサーバーに入力イベントを送るのにてこずりました。本当はRustで実装したかった。"
+						worksUrl="https://github.com/uma0317/KISS-Client"
+                        :tags='["Swift"]'
+                        />
+                        <Work name="KISS"
+                        description="MacからWindowsにキーボード入力できるやつです。こちらはWindows側で動かすサーバーです。MacクライアントからUDP通信でキー入力を受け取れます。"
+						worksUrl="https://github.com/uma0317/KISS"
+                        :tags='["Rust", "Win32"]'
+                        />
+                        <Work name="nano_drum"
+                        description="nanoPAD2からドラム音源を鳴らせるやつです。Win32APIを使ったのですが同時再生できていない。DirectSoundを使わなければならない。"
+						worksUrl="https://github.com/uma0317/nano_drum"
+                        :tags='["Rust", "MIDI", "Win32"]'
+                        />
+                        <Work name="ere"
+                        description="Eleven Rackを操作するためにフットコントローラーが欲しかったので、nanoPAD2から操作できるものを作りました。RustでWin32 API通して登録した座標をクリックする感じです。"
+						worksUrl="https://github.com/uma0317/ere"
+                        :tags='["Rust", "MIDI", "Win32"]'
+                        />
                         <Work name="Server Watcher"
                         imgUrl="https://res.cloudinary.com/yuuma0317/image/upload/v1570523965/server_watcher.png"
                         isNeedFit=true
