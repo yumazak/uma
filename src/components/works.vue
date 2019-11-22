@@ -5,6 +5,12 @@
             <section>
                 <p class="card-title">works</p>
                 <div class="card-content">
+					    <Work name="VJ"
+                        imgUrl="https://res.cloudinary.com/yuuma0317/image/upload/c_scale,w_300/v1574421360/vjgif.gif"
+                        isNeedFit=true
+                        description="リアルタイムVJシステムです。MIDIキーボードからパラメータ調整可能。"
+                        :tags='["Unity"]'
+                        />
                         <Work name="KISS Client"
                         description="KISSのMacクライアントです。Macでのキー入力を無効化しつつサーバーに入力イベントを送るのにてこずりました。本当はRustで実装したかった。"
 						worksUrl="https://github.com/uma0317/KISS-Client"
